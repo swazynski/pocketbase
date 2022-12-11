@@ -1,4 +1,5 @@
 import SelfHostedOptions from "@/components/settings/providers/SelfHostedOptions.svelte";
+import GenericOidcOptions  from "@/components/settings/providers/GenericOidcOptions.svelte";
 import MicrosoftOptions  from "@/components/settings/providers/MicrosoftOptions.svelte";
 
 // Object list with all supported OAuth2 providers in the format:
@@ -30,6 +31,11 @@ export default {
         title: "GitLab",
         icon:  "ri-gitlab-fill",
         optionsComponent: SelfHostedOptions,
+    },
+    genericOidcAuth: {
+        title: "Generic OIDC",
+        icon:  "ri-gitlab-fill",
+        optionsComponent: GenericOidcOptions,
     },
     discordAuth: {
         title: "Discord",
