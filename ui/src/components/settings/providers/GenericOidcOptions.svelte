@@ -19,9 +19,9 @@
         </Field>
     </div>
     <div class="col-lg-12">
-        <Field class="form-field" name="{key}.userinfoUrl" let:uniqueId required>
+        <Field class="form-field" name="{key}.userApiUrl" let:uniqueId required>
             <label for={uniqueId}>Userinfo URL</label>
-            <input type="url" id={uniqueId} bind:value={config.userinfoUrl} />
+            <input type="url" id={uniqueId} bind:value={config.userApiUrl} />
         </Field>
     </div>
 </div>
