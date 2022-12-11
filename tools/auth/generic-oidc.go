@@ -22,9 +22,9 @@ func NewGenericOidcProvider() *GenericOidc {
 			"profile",
 			"email",
 		},
-		authUrl:    todo,
-		tokenUrl:   todo,
-		userApiUrl: todo,
+		authUrl:    nil,
+		tokenUrl:   nil,
+		userApiUrl: nil,
 	}}
 }
 
